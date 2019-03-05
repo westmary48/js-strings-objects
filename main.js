@@ -31,3 +31,18 @@ printToDom('thirsty', iAmThirsty(55));
 printToDom('thirsty', iAmThirsty(11));
 printToDom('thirsty', iAmThirsty(80));
 
+console.log(1 === '1'); //false
+
+//dont ever use == always use ===
+console.log(1 == '1'); //true
+
+console.log ( 1 !== '2'); //true
+
+// this tells you how many characters( letters, numbers, etc)
+'cats'.length
+console.log('cats'.length);
+
+// this is good for looking for text to replace
+const quote = 'winter is coming';
+console.log(quote.indexOf('is')) //index of is a function - this will find the word is and then find the index value of the y ( return 7)
+console.log(quote.indexOf('bunny')) // if it does not find it, it returns a -1 ( means did not find)
